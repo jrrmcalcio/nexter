@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "watch": "node-sass sass/main.scss css/style.css -w",
-    "sync": "browser-sync start --proxy 'http://natours.test' --files='**/*'",
+    "sync": "browser-sync start --proxy 'http://nexter.test' --files='**/*'",
     "start": "npm-run-all --parallel sync watch",
     "compile": "node-sass sass/main.scss css/style.compile.css",
     "prefix": "postcss css/style.compile.css --use autoprefixer -b 'last 10 versions' -o css/style.prefix.css",
